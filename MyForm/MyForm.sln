@@ -1,0 +1,31 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "MyForm", "MyForm.vbproj", "{FE1F0C8F-744B-46D7-AB22-D54C2C58B258}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "MyFormTest", "..\MyFormTest\MyFormTest.vbproj", "{5FFCC7C2-4B0A-4958-9AFB-D1F8389FFBFC}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{FE1F0C8F-744B-46D7-AB22-D54C2C58B258}.Debug.ActiveCfg = Debug|.NET
+		{FE1F0C8F-744B-46D7-AB22-D54C2C58B258}.Debug.Build.0 = Debug|.NET
+		{FE1F0C8F-744B-46D7-AB22-D54C2C58B258}.Release.ActiveCfg = Release|.NET
+		{FE1F0C8F-744B-46D7-AB22-D54C2C58B258}.Release.Build.0 = Release|.NET
+		{5FFCC7C2-4B0A-4958-9AFB-D1F8389FFBFC}.Debug.ActiveCfg = Debug|.NET
+		{5FFCC7C2-4B0A-4958-9AFB-D1F8389FFBFC}.Debug.Build.0 = Debug|.NET
+		{5FFCC7C2-4B0A-4958-9AFB-D1F8389FFBFC}.Release.ActiveCfg = Release|.NET
+		{5FFCC7C2-4B0A-4958-9AFB-D1F8389FFBFC}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
